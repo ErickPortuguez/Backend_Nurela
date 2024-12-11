@@ -8,6 +8,7 @@ import pe.edu.vallegrande.barberia_macha.service.VentaService;
 
 import java.util.List;
 
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api/ventas")
 public class VentaController {

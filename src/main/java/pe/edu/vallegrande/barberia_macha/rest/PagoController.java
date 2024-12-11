@@ -14,6 +14,8 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.*;
 
+
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/pagos")
 public class PagoController {
